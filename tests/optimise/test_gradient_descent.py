@@ -17,7 +17,7 @@ def loss(data, coeff):
 
 def test_loss():
     loss_val = loss(np.array([1, 1]), np.array([3, 2]))
-    assert loss_val == 18
+    assert loss_val == 13
 
 
 def test_derivative(params):
